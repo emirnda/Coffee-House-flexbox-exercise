@@ -1,16 +1,15 @@
 .pageHeader {
-    color:black;
-    font-size: 1.5em;
-    background-color: lightblue;
-    border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:lightskyblue;
+    font-size: 6em;
+    background-color: rgb(10, 37, 42);
     padding: 20px;
     text-align: center;
     margin-bottom: 10px;
-    border-radius: 200px;
+    border-radius: 10%;
 }
 
 .list {
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -18,19 +17,26 @@
 }
 
 .shop {
-    font-size: 0.9em;
+    font-size: 1.5em;
+    text-align: center;
     background-color: lightblue;
-    border: 2px solid black;
-    width: 24%;
-    padding: 25px;
+    width: 30%;
+    padding: 15px;
     margin-top: 20px;
-    border-radius: 20px;
-    
 }
 
 
 body {
-    background-color: white;
+    background-color:rgb(38, 73, 84);
+}
+
+a:hover {
+color: yellow;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
 }
     
 
